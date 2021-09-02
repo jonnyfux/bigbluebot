@@ -11,6 +11,8 @@ A BigBlueButton's server and API's secret
 ## Instructions
 
 **IMPORTANT**: do not run this lib with `root` privileges
+**IMPORTANT**: only works for english chromes and bbb version 2.3 since the language files were hardcoded
+
 
 `npm i git+https://github.com/jonnyfux/bigbluebot.git`
 
