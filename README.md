@@ -1,4 +1,6 @@
-# BigBlueBot
+# BigBlueBot for Testing Scalelite
+
+This is a fork from the great https://github.com/mconf/bigbluebot. It is adjusted to support testing not a single BBB server but a scalelite instance. 
 
 BigBlueButton bots
 
@@ -10,7 +12,7 @@ A BigBlueButton's server and API's secret
 
 **IMPORTANT**: do not run this lib with `root` privileges
 
-`npm i bigbluebot`
+`npm i git+https://github.com/jonnyfux/bigbluebot.git`
 
 `cp node_modules/bigbluebot/.env.template .env`
 
@@ -20,7 +22,7 @@ At the `.env` file you just copied, set:
 
  - your BigBlueButton server URL
 ```
-BIGBLUEBOT_HOST=https://your.bigbluebutton.server
+BIGBLUEBOT_HOST=https://your.bigbluebutton.server (e.g. https://scalelite.hostname.com/bigbluebutton/api/join? )
 ```
  - your BigBlueButton server API secret
 ```
